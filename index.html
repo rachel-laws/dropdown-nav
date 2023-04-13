@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dropdown Navigation</title>
+  </head>
+
+  <body>
+    <nav id="top">
+      <div class="dropdownBackground">
+        <span class="arrow"></span>
+      </div>
+      <ul class="navbar">
+        <li>
+          <a href="#">About Me</a>
+          <div class="dropdown about-me">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </li>
+        <li>
+          <a href="#">Information</a>
+          <ul class="dropdown information">
+            <li>
+              <span class="center">Option A</span>
+              <a href="">React For Beginners</a>
+            </li>
+            <li>
+              <span class="center">Option B</span>
+              <a href="">ES6 For Everyone</a>
+            </li>
+            <li>
+              <span class="center">Option C</span>
+              <a href="">Learn Node</a>
+            </li>
+            <li>
+              <span class="center">Option D</span>
+              <a href="">Mastering Markdown</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Other Links</a>
+          <ul class="dropdown other-links">
+            <li><a class="twitter" href="">Twitter</a></li>
+            <li><a class="facebook" href="">Facebook</a></li>
+            <li><a class="blog" href="">Blog</a></li>
+            <li><a class="catalog" href="">Catalog</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <script src="script.js"></script>
+  </body>
+</html>
